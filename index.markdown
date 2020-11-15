@@ -7,7 +7,9 @@ layout: home
 
 
 
+<h1>Here you will find the lecture exercise for week 6</h1>
 
+<a href="https://keats.kcl.ac.uk/pluginfile.php/6543763/mod_resource/content/1/cultural-web-week-7-seminar.pdf">https://keats.kcl.ac.uk/pluginfile.php/6543763/mod_resource/content/1/cultural-web-week-7-seminar.pdf</a>
 
 
 <!-- 
