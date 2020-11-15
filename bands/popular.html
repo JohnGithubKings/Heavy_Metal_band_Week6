@@ -1,0 +1,11 @@
+---
+layout: page
+---
+<table>
+    {% tablerow product in site.data.metal_bands_2017  cols:1 %}
+    {% assign fans = product.fans | plus:0 %}
+    {% if fans > 1000 %}
+          {{ product.band_name }}
+    {% endif %}
+    {% endtablerow %}
+</table>

@@ -1,0 +1,11 @@
+---
+layout: page
+---
+<table>
+    {% tablerow product in site.data.metal_bands_2017  cols:1 %}
+    {% assign year = product.formed | plus:0 %}
+    {% if year >= 1990 and 1999 >= year  %}
+          {{ product.band_name }}
+    {% endif %}
+    {% endtablerow %}
+</table>

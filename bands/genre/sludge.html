@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<table>
+    {% tablerow product in site.data.metal_bands_2017  cols:1 %}
+    {% if product.style contains "sludge" %}
+    {{ product.band_name }}
+    {% endif %}
+    {% endtablerow %}
+</table>
